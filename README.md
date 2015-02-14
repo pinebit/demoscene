@@ -5,7 +5,7 @@ The repo includes a pre-built executable (see demo folder).
 
 ![alt text](https://github.com/pinebit/demoscene/blob/master/demo/screenshot.PNG "4k intro sceenshot")
 
-For those who are not aware of what demoscene is, please refere to Wikipedia.
+For those who are not aware of what demoscene is, please refere to [wikipedia](http://en.wikipedia.org/wiki/Demoscene).
 Here is what's cool about 4K intros:
 - zero dependencies, even no stdlib!
 - the app is created by a person/group from scratch: music, code, graphics, etc.
