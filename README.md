@@ -3,7 +3,7 @@ intro in 4k (demoscene)
 
 The repo includes a pre-built executable (see demo folder).
 
-![alt text](https://github.com/pinebit/demoscene/demo/screenshot.PNG "4k intro sceenshot")
+![alt text](https://github.com/pinebit/demoscene/blob/master/demo/screenshot.PNG "4k intro sceenshot")
 
 For those who are not aware of what demoscene is, please refere to Wikipedia.
 Here is what's cool about 4K intros:
