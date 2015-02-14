@@ -1,7 +1,7 @@
 /*
- * pinebit 4k intro
- * (c) 2010 pinebit
- */
+* 4k intro (c) pinebit 2010
+* (updated in 2015 for GitHub)
+*/
 
 #ifndef PINE_DEMO_H
 #define PINE_DEMO_H

@@ -1,14 +1,14 @@
 /*
- * pinebit 4k intro
- * (c) 2010 pinebit
- */
+* 4k intro (c) pinebit 2010
+* (updated in 2015 for GitHub)
+*/
 
 #ifndef PINE_TEXT_H
 #define PINE_TEXT_H
 
 #define TEXTURE_SX      512
 #define TEXTURE_SY      128
-#define TEXT_FONT       "Arial"
+#define TEXT_FONT       "Verdana"
 
 extern unsigned char text_luma[TEXTURE_SX * TEXTURE_SY];
 

@@ -1,7 +1,7 @@
 /*
- * pinebit 4k intro
- * (c) 2010 pinebit
- */
+* 4k intro (c) pinebit 2010
+* (updated in 2015 for GitHub)
+*/
 
 #include "demo.h"
 #include "config.h"
@@ -10,7 +10,6 @@
 #include "atom.h"
 
 #include <GL\gl.h>
-#include <GL\wglext.h>
 
 /*** Internal types **********************************************************/
 
@@ -231,8 +230,8 @@ void rain_run(float t)
             rain_atoms[a].position.w = 0.02f + perlin(++n) * 0.005f;
 
             rain_atoms[a].color.r = perlin_byte(++n);
-            rain_atoms[a].color.g = perlin_byte(++n);
-            rain_atoms[a].color.b = perlin_byte(++n);
+            rain_atoms[a].color.g = perlin_byte(++n) / 2;
+            rain_atoms[a].color.b = perlin_byte(++n) / 2;
             rain_atoms[a].color.a = 150;
 
             rain_atoms[a].state = 1;
@@ -340,7 +339,7 @@ void flash_run(float t)
 
 void rend_a_init(void)
 {
-    text_render("4K INTRO");
+    text_render("INTRO in 4K");
 }
 
 void rend_b_init(void)
@@ -350,12 +349,12 @@ void rend_b_init(void)
 
 void rend_c_init(void)
 {
-    text_render("pinebit, 2010");
+    text_render("Andrei Smirnov");
 }
 
 void rend_d_init(void)
 {
-    text_render("made in russia");
+    text_render("pinebit@gmail.com");
 }
 
 void rend_e_init(void)
@@ -426,7 +425,7 @@ static DWORD WINAPI demo_proc(LPVOID not_used)
         rain_atoms[i++].state = 0;
     }
 
-    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+    glClearColor(0.0f, 0.0f, 0.1f, 1.0f);
     glViewport(0, 0, demo_w, demo_h);
     glClear(GL_COLOR_BUFFER_BIT);
     SwapBuffers(hdc);

@@ -1,18 +1,18 @@
 /*
- * pinebit 4k intro
- * (c) 2010 pinebit
- */
+* 4k intro (c) pinebit 2010
+* (updated in 2015 for GitHub)
+*/
 
 #ifndef PINE_CONFIG_H
 #define PINE_CONFIG_H
 
 /* Window caption and class */
-#define RS_CAPTION      "pinebit4k"
+#define RS_CAPTION      "4k intro by pinebit"
 #define RS_CLASS        "pinebit4k_class"
 
-/* 2/3 HD-Ready - default window dimension */
-#define DW_WIDTH        800
-#define DW_HEIGHT       450
+/* HD 720p - default window dimension */
+#define DW_WIDTH        1280
+#define DW_HEIGHT       720
 
 /* Show FPS instead of caption? */
 #define SHOW_FPS        FALSE
